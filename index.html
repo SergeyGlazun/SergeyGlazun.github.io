@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en"  translate="no">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Apple-mobile-web-app-capable" content="yes"> 
+  <meta name="Apple-mobile-web-app-status-bar-style" content="black">
+  <title>Hi I Kim</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/assets/css/Header.css">
+  <link rel="stylesheet" href="/assets/css/page.css">
+  <link rel="stylesheet" href="/assets/css/page_2.css">
+  <link rel="stylesheet" href="/assets/css/page_3.css">
+  <link rel="stylesheet" href="/assets/css/pages_4buf.css">
+  <link rel="stylesheet" href="/assets/css/pages_6buf.css">
+  <link rel="stylesheet" href="/assets/css/page_5.css">
+  <link rel="stylesheet" href="/assets/css/page_6.css">
+</head>
+
+<body>
+
+  <header id="pageHeader">
+    <div id="logo" class="logo_mibile">
+      <svg width="107" height="42" viewBox="0 0 107 42" fill="none" xmlns="http://www.w3.org/2000/svg" id="logo_1">
+        <path d="M48.5511 0.0129395H22.6787V25.8854H48.5511V0.0129395Z" />
+        <path
+          d="M65.5654 36.7124C65.5654 36.8655 65.5583 37.0174 65.5466 37.1705C65.5336 37.3236 65.5148 37.4755 65.49 37.6286H57.839C58.0168 38.0867 58.2841 38.4589 58.6398 38.745C58.9966 39.0312 59.3911 39.2161 59.8233 39.2985C60.2555 39.3821 60.6877 39.3562 61.121 39.222C61.5532 39.0889 61.9348 38.8369 62.2657 38.4683H65.2616C64.9059 39.4857 64.3842 40.2712 63.6965 40.8247C63.01 41.3782 62.2586 41.7338 61.4449 41.8928C60.6312 42.0518 59.8103 42.0235 58.9837 41.8068C58.157 41.5913 57.4292 41.2157 56.7992 40.681C56.1703 40.1464 55.6898 39.4693 55.3589 38.6496C55.028 37.8288 54.9515 36.8914 55.1305 35.8351C55.3083 34.7788 55.6898 33.9179 56.2751 33.2502C56.8604 32.5825 57.5411 32.102 58.3159 31.81C59.092 31.5179 59.9057 31.4061 60.7583 31.4755C61.6098 31.5462 62.3929 31.79 63.1053 32.2104C63.8178 32.6308 64.4054 33.2184 64.8706 33.9756C65.3334 34.7317 65.5654 35.6443 65.5654 36.7124ZM58.3148 34.9955H62.3022C62.0349 34.6905 61.7263 34.4585 61.3766 34.2995C61.0268 34.1405 60.67 34.0604 60.3085 34.0604C59.9458 34.0604 59.5901 34.1405 59.2404 34.2995C58.8906 34.4585 58.5821 34.6905 58.3148 34.9955Z" />
+        <path
+          d="M70.024 31.8087V32.1714C70.6092 31.8405 71.2075 31.6273 71.8175 31.5319C72.4275 31.4365 73.0257 31.4436 73.611 31.5508C74.1963 31.6591 74.7486 31.8628 75.2715 32.162C75.7931 32.4611 76.2477 32.8367 76.6363 33.2878C77.0238 33.74 77.3323 34.2546 77.5619 34.8328C77.7904 35.4122 77.9058 36.0375 77.9058 36.7123V36.7311V41.2721V41.9786H75.2726V36.7311C75.2726 36.3755 75.2055 36.0352 75.0724 35.7101C74.9382 35.3863 74.7509 35.106 74.5095 34.8705C74.2681 34.635 73.9878 34.4477 73.6699 34.3076C73.3519 34.1675 73.0081 34.098 72.6395 34.098C72.2826 34.098 71.9494 34.1651 71.6373 34.2982C71.3252 34.4312 71.052 34.6126 70.8165 34.8422C70.581 35.0707 70.3937 35.338 70.2536 35.643C70.1135 35.948 70.0369 36.2731 70.024 36.6157V36.6346V36.7111V36.73V41.2709V41.9775H67.392V31.466H70.024V31.8087Z" />
+        <path
+          d="M89.9375 34.9389H86.9417C86.5342 34.4937 86.0667 34.2205 85.5391 34.1181C85.0115 34.0168 84.5122 34.0545 84.0412 34.2323C83.5701 34.4101 83.1697 34.7128 82.8388 35.1391C82.5079 35.5654 82.343 36.0835 82.343 36.6935C82.343 37.2918 82.5079 37.8029 82.8388 38.2292C83.1697 38.6555 83.5701 38.9605 84.0412 39.1454C84.511 39.3302 85.0103 39.3715 85.5391 39.269C86.0667 39.1677 86.5342 38.8933 86.9417 38.4482H89.9375C89.6066 39.3774 89.1273 40.1145 88.4973 40.661C87.8673 41.2086 87.1736 41.5795 86.4176 41.7774C85.6604 41.974 84.8879 42.0058 84.0989 41.8727C83.3099 41.7397 82.5915 41.4535 81.9426 41.0143C81.2938 40.575 80.7626 39.9909 80.3493 39.2584C79.936 38.5271 79.7287 37.6722 79.7287 36.6924C79.7287 35.7126 79.936 34.8576 80.3493 34.1263C80.7626 33.395 81.2938 32.8097 81.9426 32.3717C82.5915 31.9324 83.3099 31.6462 84.0989 31.5132C84.8867 31.3801 85.6604 31.4119 86.4176 31.6086C87.1736 31.8052 87.8673 32.1774 88.4973 32.725C89.1273 33.2725 89.6066 34.0097 89.9375 34.9389Z" />
+        <path
+          d="M102.294 36.7124C102.294 36.8655 102.287 37.0174 102.276 37.1705C102.263 37.3236 102.244 37.4755 102.219 37.6286H94.5679C94.7458 38.0867 95.0131 38.4589 95.3687 38.745C95.7256 39.0312 96.1201 39.2161 96.5522 39.2985C96.9844 39.3821 97.4166 39.3562 97.85 39.222C98.2822 39.0889 98.6637 38.8369 98.9946 38.4683H101.991C101.635 39.4857 101.113 40.2712 100.425 40.8247C99.7389 41.3782 98.9876 41.7338 98.1738 41.8928C97.3601 42.0518 96.5393 42.0235 95.7126 41.8068C94.8859 41.5913 94.1581 41.2157 93.5281 40.681C92.8993 40.1464 92.4188 39.4693 92.0879 38.6496C91.757 37.8288 91.6804 36.8914 91.8594 35.8351C92.0372 34.7788 92.4188 33.9179 93.0041 33.2502C93.5893 32.5825 94.27 32.102 95.0449 31.81C95.8209 31.5179 96.6347 31.4061 97.4873 31.4755C98.3387 31.5462 99.1218 31.79 99.8343 32.2104C100.547 32.6308 101.134 33.2184 101.6 33.9756C102.061 34.7317 102.294 35.6443 102.294 36.7124ZM95.0437 34.9955H99.0311C98.7638 34.6905 98.4553 34.4585 98.1055 34.2995C97.7558 34.1405 97.399 34.0604 97.0374 34.0604C96.6747 34.0604 96.3191 34.1405 95.9693 34.2995C95.6184 34.4585 95.311 34.6905 95.0437 34.9955Z" />
+        <path d="M106.753 41.9786H104.12V29.073H106.753V41.9786Z" />
+        <path
+          d="M65.5667 24.087V25.8428H62.9335V24.087C62.9335 23.7314 62.8629 23.391 62.7239 23.066C62.5838 22.7421 62.3965 22.4619 62.161 22.2263C61.9255 21.9908 61.6452 21.8036 61.3213 21.6634C60.9975 21.5233 60.656 21.4538 60.3003 21.4538C59.9317 21.4538 59.5879 21.5233 59.2699 21.6634C58.952 21.8036 58.6752 21.9908 58.4397 22.2263C58.2042 22.4619 58.0169 22.741 57.8768 23.066C57.7366 23.3898 57.6672 23.7314 57.6672 24.087V25.8428H55.034V20.5765V12.9502H57.6672V16.0356V19.5272L61.8654 15.3302H65.5667L61.8454 19.0703C62.3918 19.2352 62.8946 19.4837 63.3527 19.8146C63.8108 20.1455 64.2053 20.5306 64.5363 20.9686C64.8672 21.4079 65.1204 21.8943 65.2994 22.4277C65.4772 22.9612 65.5667 23.5147 65.5667 24.087Z" />
+        <path
+          d="M91.2647 20.5956V25.8431H88.6316V20.6085C88.6316 20.2399 88.5609 19.8972 88.4219 19.5804C88.2818 19.2637 88.0946 18.9846 87.859 18.7432C87.6235 18.5029 87.3444 18.3157 87.0194 18.1814C86.6955 18.0484 86.354 17.9812 85.9984 17.9812C85.6416 17.9812 85.3083 18.0448 84.9962 18.172C84.6842 18.2992 84.4109 18.477 84.1754 18.7043C83.9399 18.9328 83.7491 19.1989 83.6031 19.5039C83.4571 19.8089 83.377 20.1386 83.3652 20.4943V20.5131V20.5708V20.6085V25.1388V25.8431H80.732V20.6085C80.732 20.2399 80.6649 19.8972 80.5318 19.5804C80.3976 19.2637 80.2104 18.9846 79.9689 18.7432C79.7275 18.5029 79.4473 18.3157 79.1293 18.1814C78.8113 18.0484 78.4745 17.9812 78.1177 17.9812C77.7491 17.9812 77.4053 18.0484 77.0873 18.1814C76.7693 18.3145 76.4926 18.4982 76.2571 18.7337C76.0215 18.9681 75.8331 19.2448 75.6942 19.5616C75.554 19.8784 75.4845 20.2152 75.4845 20.5708V20.6085V20.7039V25.1388V25.8431H72.8514V15.3304H75.4857V15.6766V16.0417C76.0204 15.7214 76.5856 15.5106 77.1839 15.4081C77.7821 15.3057 78.3697 15.3021 78.9491 15.3987C79.5285 15.4953 80.0844 15.686 80.619 15.9734C81.1536 16.2607 81.6306 16.6399 82.0498 17.111C82.6728 16.4115 83.3758 15.9216 84.1578 15.6389C84.9397 15.3575 85.7252 15.2609 86.5142 15.3504C86.6037 15.3634 86.6861 15.3728 86.7627 15.3787C86.8392 15.3857 86.9146 15.4011 86.9923 15.427C87.0559 15.427 87.1254 15.4399 87.2019 15.4646C87.2408 15.4776 87.2808 15.487 87.3256 15.4929C87.3703 15.5 87.4115 15.5094 87.4492 15.5212C87.8308 15.6354 88.2123 15.8014 88.5939 16.017L88.8223 16.1312C88.8859 16.1689 88.9401 16.2077 88.9848 16.2454C89.0296 16.2831 89.0838 16.322 89.1474 16.3596C89.198 16.3973 89.2616 16.455 89.3381 16.5316C89.7962 16.9002 90.1813 17.3394 90.4922 17.8482C90.8043 18.3569 91.0233 18.9163 91.1505 19.5275C91.1635 19.591 91.1823 19.6735 91.2082 19.7759C91.2447 20.0421 91.2647 20.3153 91.2647 20.5956Z" />
+        <path d="M70.5197 15.3101H66.8372V17.9597H70.5197V15.3101Z" />
+        <path d="M70.5196 17.0093H67.8476V25.8415H70.5196V17.0093Z" />
+        <path
+          d="M68.9452 14.5325C69.6008 14.5325 70.1322 14.0011 70.1322 13.3455C70.1322 12.6899 69.6008 12.1584 68.9452 12.1584C68.2896 12.1584 67.7581 12.6899 67.7581 13.3455C67.7581 14.0011 68.2896 14.5325 68.9452 14.5325Z" />
+        <path
+          d="M22.6599 41.9234V36.9751C22.6599 27.2585 14.7828 19.3813 5.06619 19.3813H0.0212402V41.9234H22.6599Z" />
+        <path
+          d="M41.9729 35.5315V42.0002H38.6944C29.8634 42.0002 22.6787 34.8131 22.6787 25.9821V25.8867H29.1474V25.9821C29.1474 31.2473 33.4316 35.5315 38.6944 35.5315H41.9729Z" />
+        <path
+          d="M10.82 0V0.170756C10.82 5.43592 6.53817 9.72012 1.27537 9.72012H0V16.1888H1.27537C10.1064 16.1888 17.2887 9.00412 17.2887 0.170756V0H10.82Z" />
+      </svg>
+    </div>
+  
+      <div class="burger__button" style="z-index: 1000;">
+        <div id="back_Home_mobile" style="z-index: 1000;">Home</div>
+        <div id="About_mobile" style="z-index: 1000;">About</div>
+        <div id="Contact_mobile" style="z-index: 1000;">Contact</div>
+      </div>
+
+      <div id="buttonHeader">
+        <div id="About">About</div>
+        <div id="Contact">Contact</div>
+      </div>
+
+      <div>
+        <div class="header__burger" type="button" ">
+            <img src=" /assets/imag_mobile/cil_hamburger-menu.svg" id="clik" alt="">
+          <img src="/assets/imag_mobile/cil_hamburger-menu_1.svg" id="clik_1" alt="">
+          <img src="/assets/imag_mobile/cil_hamburger-menu_2.svg" id="clik_2" alt="">
+          <img src="/assets/imag_mobile/cil_hamburger-menu_3.svg" id="clik_3" alt="">
+        </div>       
+      </div>
+
+  </header>
+
+
+  <div class="grid">
+  
+    <article id="mainArticle">
+      <div class="about_I">
+        <div id="Hi">Hi, <br> I’m Kim</div>
+        <div id="About_me">People call me a sport consultant, but I think I’m more than that. I’m the
+          secret sauce that makes projects go. See a project through my eyes:
+        </div>
+
+        <div id="ButtonMain">
+          <div id="small__project" class="small__project_mobile" onclick="">SMALL PROJECT</div>
+          <div id="large__project" class="large__projec_mobile" onclick="">LARGE PROJECT</div>
+        </div>
+      </div>
+    </article>
+
+    <nav id="gif1">
+      <img src="/assets/gif/gif_1.gif" id="gif_1" alt="">
+    </nav>
+
+    <div id="gif2">
+      <img src="/assets/gif/gif_2.gif" id="gif_2" alt="">
+    </div>
+
+
+  </div>
+
+  <div class="page__2">
+
+    <div class="about_me_p2">About <br> me </div>
+    <img src="/assets/gif/gif_3.gif" alt="" id="gif_3">
+    <img src="/assets/gif/gif_4.gif" alt="" id="gif_4">
+    <img src="/assets/images/Photo.png" alt="" id="foto">
+    <div class="about_meIfo_p2"> Hi, I’m Kim. I’m a consultant and academic based in Melbourne, Australia.
+
+      During office hours you’ll find me working on a UNESCO project or
+      teaching/researching at Deakin University.  <br><br>
+   
+      When I'm not working, I’m playing my Switch, reading a book my partner recommended, cooking without a
+      recipe, or fantasizing about one day having a bigger garden.<br><br>
+     
+      And if you have to know, I’ve got a PhD. I’ve also worked on projects with the AFL, FFAV,
+      UNICEF, IOM, UCI, WHO, AFC etc. All the abbreviations! Contact me if you’re hungry for more.
+    </div>
+
+  </div>
+
+  <div class="page__3">
+
+    <div id="touch">
+      Let’s<br>
+      chat!
+    </div>
+
+
+    <div class="contacts">
+      <hr id="mailLine">
+
+      <div id="Mail">
+        <svg viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" id="contact_mail" style="z-index: 100;">
+          <path
+            d="M0.075 2.3325L12 9.621L23.925 2.3325C23.7738 1.66986 23.402 1.07822 22.8706 0.654463C22.3392 0.230706 21.6797 -4.57416e-05 21 6.80121e-09H3C2.32033 -4.57416e-05 1.66078 0.230706 1.12938 0.654463C0.597983 1.07822 0.226227 1.66986 0.075 2.3325ZM24 4.0455L15.1875 9.4305L24 14.6145V4.0455ZM23.748 16.2075L13.7355 10.3185L12 11.379L10.2645 10.3185L0.252 16.2075C0.48651 16.7409 0.871254 17.1944 1.35925 17.5127C1.84724 17.831 2.41737 18.0003 3 18H21C21.5826 18.0003 22.1528 17.831 22.6408 17.5127C23.1287 17.1944 23.5135 16.7409 23.748 16.2075ZM0 14.6145L8.8125 9.4305L0 4.0455V14.6145Z" "/>
+          </svg> 
+          <div id=" mailText">Email me
+      </div>
+      <div id=mailLink>encelk@gmail.com</div>
+      </div>
+
+    <hr id="phoneLine"> 
+     
+    <div id="Phone">
+      <svg viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg" id="contact_phone" style="z-index: 100;">
+        <path
+          d="M0 3.05C0 2.24109 0.321338 1.46531 0.893324 0.893324C1.46531 0.321338 2.24109 0 3.05 0L12.2 0C13.0089 0 13.7847 0.321338 14.3567 0.893324C14.9287 1.46531 15.25 2.24109 15.25 3.05V21.35C15.25 22.1589 14.9287 22.9347 14.3567 23.5067C13.7847 24.0787 13.0089 24.4 12.2 24.4H3.05C2.24109 24.4 1.46531 24.0787 0.893324 23.5067C0.321338 22.9347 0 22.1589 0 21.35V3.05ZM9.15 19.825C9.15 19.4205 8.98933 19.0327 8.70334 18.7467C8.41734 18.4607 8.02946 18.3 7.625 18.3C7.22054 18.3 6.83266 18.4607 6.54666 18.7467C6.26067 19.0327 6.1 19.4205 6.1 19.825C6.1 20.2295 6.26067 20.6173 6.54666 20.9033C6.83266 21.1893 7.22054 21.35 7.625 21.35C8.02946 21.35 8.41734 21.1893 8.70334 20.9033C8.98933 20.6173 9.15 20.2295 9.15 19.825Z" />
+      </svg>
+      <div id="PhoneText">Call me</div>
+      <div id="PhoneLink">+61422648484</div>
+
+    </div>
+
+    <hr id="LinkedLine">
+
+    <div id="Linked">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" id="contact_linked"
+        style="z-index: 1000;" >
+        <g clip-path="url(#clip0)">
+          <path
+            d="M21.9947 22.0001V21.9992H22.0002V13.9306C22.0002 9.98346 21.1504 6.94287 16.5359 6.94287C14.3176 6.94287 12.8289 8.16021 12.2212 9.31429H12.157V7.31137H7.78174V21.9992H12.3376V14.7263C12.3376 12.8114 12.7006 10.9597 15.072 10.9597C17.4086 10.9597 17.4434 13.1451 17.4434 14.8491V22.0001H21.9947Z" />
+          <path d="M0.362793 7.31226H4.92413V22H0.362793V7.31226Z" />
+          <path
+            d="M2.64183 0C1.18342 0 0 1.18342 0 2.64183C0 4.10025 1.18342 5.30842 2.64183 5.30842C4.10025 5.30842 5.28367 4.10025 5.28367 2.64183C5.28275 1.18342 4.09933 0 2.64183 0V0Z" />
+        </g>
+        <defs>
+          <clipPath id="clip0">
+            <rect width="22" height="22" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>  
+      <div id="LinkedText">
+        Connect with me
+      </div>
+      <div id="LinkedLink">
+        <a target="_blank" href="http://www.linkedin.com/in/kimencel" style="z-index: 1000;">LinkedIn</a>
+      </div>    
+    </div>
+
+    <hr id="TwitterLine">
+
+   
+    <div id="Twitter">
+    
+      <svg width="30" height="30" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+      id="contact_twiter" style="z-index: 1000;">
+      <g clip-path="url(#clip0)">
+          <path
+              d="M22 4.17863C21.1819 4.5375 20.3101 4.77537 19.4012 4.89087C20.3363 4.33262 21.0499 3.45537 21.3854 2.398C20.5136 2.91775 19.5511 3.28488 18.5254 3.48975C17.6976 2.60838 16.5179 2.0625 15.2309 2.0625C12.7339 2.0625 10.7236 4.08925 10.7236 6.57388C10.7236 6.93138 10.7539 7.27512 10.8281 7.60237C7.0785 7.4195 3.76063 5.62238 1.53175 2.88475C1.14262 3.55988 0.914375 4.33262 0.914375 5.1645C0.914375 6.7265 1.71875 8.11112 2.91775 8.91275C2.19313 8.899 1.48225 8.68862 0.88 8.35725C0.88 8.371 0.88 8.38888 0.88 8.40675C0.88 10.5985 2.44337 12.419 4.4935 12.8384C4.12637 12.9388 3.72625 12.9869 3.311 12.9869C3.02225 12.9869 2.73075 12.9704 2.45712 12.9099C3.0415 14.696 4.69975 16.0091 6.6715 16.0518C5.137 17.2521 3.18863 17.9754 1.07938 17.9754C0.7095 17.9754 0.35475 17.9589 0 17.9135C1.99787 19.2019 4.36562 19.9375 6.919 19.9375C15.2185 19.9375 19.756 13.0625 19.756 7.10325C19.756 6.90387 19.7491 6.71138 19.7395 6.52025C20.6346 5.885 21.3867 5.09162 22 4.17863Z" />
+      </g>
+      <defs>
+          <clipPath id="clip0">
+              <rect width="22" height="22" fill="white" />
+          </clipPath>
+      </defs>
+      </svg>
+   
+
+      <div id="TwitterText">
+        Follow me
+      </div>
+      <div id="TwitterLink">
+        <a target="_blank"     href="https://twitter.com/KimEncel" style="z-index: 2000;">Twitter</a>
+      </div>  
+    </div>
+
+    <hr id="footerLine">
+
+  </div>
+
+  <div class="mosaic_page_3">
+    <img src="/assets/mosaik/Vector_1.svg" alt="" class="mosaic" id="mosaic_1">
+    <img src="/assets/mosaik/Vector_2.svg" alt="" class="mosaic" id="mosaic_2">
+    <img src="/assets/mosaik/Vector_3.svg" alt="" class="mosaic" id="mosaic_3">
+    <img src="/assets/mosaik/Vector_4.svg" alt="" class="mosaic" id="mosaic_4">
+    <img src="/assets/mosaik/Vector_5.svg" alt="" class="mosaic" id="mosaic_5">
+    <img src="/assets/mosaik/Vector_6.svg" alt="" class="mosaic" id="mosaic_6">
+    <img src="/assets/mosaik/Vector_7.svg" alt="" class="mosaic" id="mosaic_7">
+    <img src="/assets/mosaik/Vector_8.svg" alt="" class="mosaic" id="mosaic_8">
+    <img src="/assets/mosaik/Vector_9.svg" alt="" class="mosaic" id="mosaic_9">
+    <img src="/assets/mosaik/Vector_10.svg" alt="" class="mosaic" id="mosaic_10">
+    <img src="/assets/mosaik/Vector_11.svg" alt="" class="mosaic" id="mosaic_11">
+    <img src="/assets/mosaik/Vector_12.svg" alt="" class="mosaic" id="mosaic_12">
+    <img src="/assets/mosaik/Vector_13.svg" alt="" class="mosaic" id="mosaic_13">
+    <img src="/assets/mosaik/Vector_14.svg" alt="" class="mosaic" id="mosaic_14">
+  </div>
+
+  <div id="mosaic_mobile_p3" >
+    <img src="/assets/mosaik/Vector_1.svg" alt="" class="mosaic_mobile" id="mosaic_1_mobile">
+    <img src="/assets/mosaik/Vector_2.svg" alt="" class="mosaic_mobile" id="mosaic_2_mobile" > 
+    <img src="/assets/mosaik/Vector_3.svg" alt="" class="mosaic_mobile" id="mosaic_3_mobile">
+    <img src="/assets/mosaik/Vector_4.svg" alt="" class="mosaic_mobile" id="mosaic_4_mobile">
+  </div>
+
+  </div>
+
+<div class="page__4SmalProd">
+    <div id="TitleText_pages4">
+      Small<br>Project
+    </div>
+    <div id="Text_pages4">
+      Good project management can be applied<br> to even the teeniest of problems. Let’s start<br>
+      this
+      one by defining the problem.
+    </div>
+    <div id="Line_pages4">
+      <img src="/assets/images/Line_1.svg" alt="">
+    </div>
+</div>
+
+<div class="page__6BigProd">
+  <div id="TitleText_pages6">
+    Large<br>Project
+  </div>
+  <div id="Text_pages6">
+    Big projects apply the same principles as smaller ones. You know the drill now. Let’s start
+    this one by defining the problem
+  </div>
+  <div id="Line_pages6">
+    <img src="/assets/images/Line_1.svg" alt="">
+  </div>
+</div>
+
+<div class="buttonPages_5_6">
+  <img src="/assets/images/icn2_down.svg" class="button_down" alt="" ">              
+  <img src=" /assets/images/icn1_up.svg" alt="" class="button_up">
+</div>
+
+<div class="page__5">
+
+  <div class="contener1" >
+    <div class="heading1 HedingText">     
+     1/8<br>What’s the problem here? 
+     <img src="/assets/images/Promt.svg" alt="" class="promt_5">    
+     <img src="/assets/images/t1.svg" alt="" class="promt_text_5">                
+    </div>
+
+    <div class="text1 text_p5">
+     You need a new hobby and Netflix isn’t it. Your friends are baking or embroidering or rock
+     climbing. Or raising their kids... is that a hobby? Whatever. You need something to do with
+     your
+     weekends otherwise you’ll end up scrolling for hours and melting into your couch.
+    </div>
+    <div>
+      <hr class="line1">
+    </div>
+ </div>
+
+ <div class="contener2">
+   <div class="heading2 HedingText">
+
+    2/8<br>Do you have any bright ideas?
+    <img src="/assets/images/Promt.svg" alt="" class="promt_5">
+    <img src=" /assets/images/t2.svg" alt="" class="promt_text_5">
+   
+   
+   </div>
+
+   <div class="text2 text_p5">
+    Let’s brainstorm some possible hobbies for you. Reading? No, you want something to keep you
+    active.
+    Flying a kite? Maybe not, you don’t want to anger the birds. How about gardening? Bingo! You love
+    dill and rhubarb. Time to turn this idea into something more meaty. Or planty.
+   </div>
+   <div>
+    <hr class="line2">
+  </div>
+</div>
+
+<div class="contener3">
+  <div class="heading3 HedingText">
+   3/8<br>Developing a viable concept
+   <img src="/assets/images/Promt.svg" alt="" class="promt_5">
+   <img src="/assets/images/t3.svg" alt="" class="promt_text_5">
+  </div>
+
+  <div class="text3 text_p5">
+    We need a rough draft of the plan to share around and get advice. Curate a Pinterest board of
+    beautiful gardens, sketch a picture of yourself looking sweaty and tanned while working in the
+    garden and decide what you’ll plant. After much soul-searching, we’ve landed on: dill, spring
+    onion,
+    and
+    some rhubarb. Yum.
+  </div>
+  <div>
+    <hr class="line3">
+  </div>
+
+ </div>
+
+
+ <div class="contener4">
+  <div class="heading4 HedingText">
+   4/8<br>Bring your partners in
+   <img src="/assets/images/Promt.svg" alt="" class="promt_5">
+   <img src="/assets/images/t4.svg" alt="" class="promt_text_5">
+  </div>
+
+  <div class="text4 text_p5">
+    You’ll need to ask your housemates if you can tear up the garden in exchange for a lifetime supply
+    of dill. Show them the sketch of you sweating in the garden to convince them. And it might be time
+    to call your friend with a green thumb and ask for some advice on how to keep dill alive.
+  </div>
+  <div>
+    <hr class="line4">
+  </div>
+
+ </div>
+
+ <div class="contener5">
+  <div class="heading5 HedingText">
+   5/8<br>Make a plan, Stan
+   <img src="/assets/images/Promt.svg" alt="" class="promt_5">
+   <img src="/assets/images/t5.svg" alt="" class="promt_text_5">
+  </div>
+
+  <div class="text5 text_p5">
+    With your friend’s advice and housemate’s permission, you get planning. You write down the essential
+    ingredients and a budget. You’ve every detail so you won’t mistakenly leave Bunnings with a new deck
+    chair and three sausages.
+  </div>
+  <div>
+    <hr class="line5">
+  </div>
+
+ </div>
+
+ <div class="contener6">
+  <div class="heading6 HedingText">
+   6/8<br>It’s do time
+   <img src="/assets/images/Promt.svg" alt="" class="promt_5">
+   <img src="/assets/images/t6.svg" alt="" class="promt_text_5">
+  </div>
+
+  <div class="text6 text_p5">
+    You’ve thought about this for long enough. The sun is shining and you start planting. You’re doing
+    it! Before long, the garden bed is set up and looking fabulous. You’re impatient to taste the
+    fruits
+    of your labour, so you sample some of the dill. The plant looks bald now but your mouth is happy.
+    You’re a gardener!
+  </div>
+  <div>
+    <hr class="line6">
+  </div>
+
+ </div>
+
+ <div class="contener7">
+  <div class="heading7 HedingText">
+   7/8<br>Shout it from the rooftops
+   <img src="/assets/images/Promt.svg" alt="" class="promt_5">
+   <img src="/assets/images/t7.svg" alt="" class="promt_text_5">
+  </div>
+
+  <div class="text7 text_p5">
+    The garden bed is booming and you’ve started swapping tips with other neighbourhood gardeners.
+    While
+    out collecting kale (for the kale pie you never thought you wanted) you snap a nice pic of your
+    garden and bam. Likes aplenty. Friends you haven’t seen in a lifetime are messaging to suggest
+    produce swaps. Life is good.
+  </div>
+  <div>
+    <hr class="line7">
+  </div>
+
+ </div>
+
+ <div class="contener8">
+  <div class="heading8 HedingText">
+   8/8<br>Watch and learn, buddy
+   <img src="/assets/images/Promt.svg" class="promt_5">
+   <img src="/assets/images/t8.svg" alt="" class="promt_text_5">
+  </div>
+
+  <div class="text8 text_p5">
+    The only fly in the ointment with your new garden is that dill you made bald has never really
+    recovered. Who knew chomping bulk dill would set the plant back so far? Oh well. You know now. You
+    make a note: ‘Don’t take dill hair before it’s ready’.
+  </div>
+  <div>
+    <hr class="line8">
+  </div>
+
+ </div>
+
+ <div class="contener9">
+      <div class="heading9 HedingText">
+       Anddd finish. Congratulations<br> green thumb!<br><br>
+      </div>
+
+    <div class="text9 text_p5">
+        Your gardening project went down without a hitch.<br>
+        Want to see a big project?
+        <div id="mobileButton" class="baton_LP" style="z-index: 2000;">
+          LARGE PROJECT
+        </div>
+    </div>
+
+ </div>
+
+
+</div>
+
+
+<div class="masaick_5">
+ 
+  <div class="mosaickBlocPage5">
+    <svg width="114" height="114" viewBox="0 0 114 114" fill="#3D37CD" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5 " id="masaic_5_0">
+      <path d="M113.549 113.971H0V0.433594L113.549 113.971Z" />
+  </svg>
+
+  <svg width="30" height="114" viewBox="0 0 30 114" fill="#28C65C" xmlns="http://www.w3.org/2000/svg"
+  class="masaic_5" id="masaic_5_1">
+  <path d="M29.5489 0H0.910889V113.913H29.5489V0Z" />
+</svg>
+
+  <svg width="86" height="86" viewBox="0 0 86 86" fill="#FFBC00" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_2">
+      <path d="M85.4921 85.4807H0C0 38.2828 38.2714 0 85.4921 0V85.4807Z" />
+  </svg>
+
+  <svg width="86" height="86" viewBox="0 0 86 86" fill="#FF0000" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_3">
+      <path d="M85.9734 85.481H0.492676V0.0117188C47.702 0.0117188 85.9734 38.2831 85.9734 85.481Z" />
+  </svg>
+
+  <svg width="57" height="57" viewBox="0 0 57 57" fill="#333333" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_5">
+      <path d="M56.9795 0V56.9795H0C0 25.5143 25.5142 0 56.9795 0Z" />
+  </svg>
+
+  <svg width="58" height="57" viewBox="0 0 58 57" fill="#FF0000" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_4">
+      <path d="M57.9712 56.9795H0.980225V0C32.4569 0 57.9712 25.5143 57.9712 56.9795Z" />
+  </svg>
+
+  <svg width="86" height="86" viewBox="0 0 86 86" fill="#3D37CD" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_6">
+      <path d="M0 85.5035V0H85.4807C85.4807 47.2207 47.198 85.5035 0 85.5035Z" />
+  </svg>
+
+  <svg width="86" height="86" viewBox="0 0 86 86" fill="#28C65C" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_7">
+      <path d="M0 85.5035V0H85.4807C85.4807 47.2207 47.2094 85.5035 0 85.5035Z" />
+  </svg>
+
+  <svg width="57" height="57" viewBox="0 0 57 57" fill="#28C65C" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_8">
+      <path d="M56.9795 0V56.991C25.5142 56.991 0 31.4767 0 0H56.9795Z" />
+  </svg>
+  <svg width="171" height="29" viewBox="0 0 171 29" fill="#FF0000" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_9">
+      <path d="M170.916 28.1478V0L-6.10352e-05 0V28.1478L170.916 28.1478Z" />
+  </svg>
+
+  <svg width="115" height="115" viewBox="0 0 115 115" fill="#FFBC00" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_10">
+      <path d="M114.073 114.073H0V0L114.073 114.073Z" />
+  </svg>
+
+  <svg width="115" height="115" viewBox="0 0 115 115" fill="#3D37CD" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_11">
+      <path d="M0.0112305 114.073V0H114.073L0.0112305 114.073Z" />
+  </svg>
+
+  <svg width="115" height="115" viewBox="0 0 115 115" fill="#3D37CD" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_12">
+      <path d="M114.084 114.073H0V0L114.084 114.073Z" />
+  </svg>
+  <svg width="115" height="115" viewBox="0 0 115 115" fill="#3D37CD" xmlns="http://www.w3.org/2000/svg"
+      class="masaic_5" id="masaic_5_13">
+      <path d="M0.059082 114.073H114.132V0L0.059082 114.073Z" />
+  </svg>
+  </div>
+  
+
+</div>
+
+<div class="page__6">
+
+  <div class="contener1_6" >
+    <div class="heading1_6 HedingText_6">     
+     1/8<br>What’s the problem here?
+     <img src="/assets/images/pront_2.svg" alt="" class="promt_6">
+     <img src="/assets/images/a1.svg" alt="" class="promt_text_6">            
+    </div>
+
+    <div class="text1_6 text_6">
+      You’re the bigwig in charge of a big sport organisation. Your sport has always been enjoyed by
+      men but there’s one big problem - not enough women and girls are playing. This problem is bigger
+      than your organization but the good news is you can do something about it.
+    </div>
+    <div>
+      <hr class="line1_6">
+    </div>
+ </div>
+
+ <div class="contener2_6">
+   <div class="heading2_6 HedingText_6">
+    2/8<br>Do you have any bright ideas?
+    <img src="/assets/images/pront_2.svg" alt="" class="promt_6">
+    <img src="/assets/images/a2.svg" alt="" class="promt_text_6">
+   </div>
+
+   <div class="text2_6 text_6">
+    You want a bold idea to welcome women into your sport. Then it hits you - a professional league for
+    women. Women already watch your sport and they deserve to be represented on the field too and it
+    might
+    inspire them to play! It’s a huge project but you can feel it’s the right move.
+   </div>
+   <div>
+    <hr class="line2_6">
+  </div>
+</div>
+
+<div class="contener3_6">
+  <div class="heading3_6 HedingText_6">
+   3/8<br>Developing a viable concept
+   <img src="/assets/images/pront_2.svg" alt="" class="promt_6">
+   <img src="/assets/images/a3.svg" alt="" class="promt_text_6">
+  </div>
+
+  <div class="text3_6 text_6">
+    You sketch out a rough idea to leverage the enthusiastic men's club to rally women’s teams under
+    their banners. You start with a shortened season to gather data, work out problems, and understand
+    the dynamic of a women’s league. With your draft plan in place, you're ready to approach partners
+    and funders.
+  </div>
+  <div>
+    <hr class="line3_6">
+  </div>
+
+ </div>
+
+
+ <div class="contener4_6">
+  <div class="heading4_6 HedingText_6">
+   4/8<br>Bring your partners in
+   <img src="/assets/images/pront_2.svg" alt="" class="promt_6">
+   <img src="/assets/images/a4.svg" alt="" class="promt_text_6">
+  </div>
+
+  <div class="text4_6 text_6">
+    This is all new to you so you need to gather experts to get things moving. Women have been playing
+    your sport for a while so you get them on board and listen to their ideas. Passionate pioneers will
+    be key. You start to methodically build relationships with people who will help bring the league to
+    life.
+  </div>
+  <div>
+    <hr class="line4_6">
+  </div>
+
+ </div>
+
+ <div class="contener5_6">
+  <div class="heading5_6 HedingText_6">
+   5/8<br>Make a plan, stan
+   <img src="/assets/images/pront_2.svg" alt="" class="promt_6">
+   <img src="/assets/images/a5.svg" alt="" class="promt_text_6">
+  </div>
+
+  <div class="text5_6 text_6">
+    Jeepers, things are moving quickly! It’s time to tackle the details. When will the games be
+    scheduled, how many games per season, how much money will players receive? In this first season, you
+    don’t have the resources to do everything so you prioritize.
+  </div>
+  <div>
+    <hr class="line5_6">
+  </div>
+
+ </div>
+
+ <div class="contener6_6">
+  <div class="heading6_6 HedingText_6">
+   6/8<br>It’s do time
+   <img src="/assets/images/pront_2.svg" alt="" class="promt_6">
+   <img src="/assets/images/a6.svg" alt="" class="promt_text_6">
+  </div>
+
+  <div class="text6_6 text_6">
+    This is the moment you’ve been waiting for! After all the planning, now you’re actually doing it.
+    From the first game, the women’s league is a game changer. New faces in the media, new investment,
+    and new stories are already emerging. So much excitement, such a whirlwind but you quickly remember,
+    stick to the plan to keep it steady.
+  </div>
+  <div>
+    <hr class="line6_6">
+  </div>
+
+ </div>
+
+ <div class="contener7_6">
+  <div class="heading7_6 HedingText_6">
+   7/8<br>Shout it from the rooftops
+   <img src="/assets/images/pront_2.svg" alt="" class="promt_6">
+   <img src="/assets/images/a7.svg" alt="" class="promt_text_6"> 
+  </div>
+
+  <div class="text7_6 text_6">
+    You know a big part of this league’s success was sharing stories to the world. The front pages of
+    the paper were covered in photos of women playing football. Huge! This was no accident though,
+    you
+    knew who had the biggest megaphone and told them what they needed to hear.
+  </div>
+  <div>
+    <hr class="line7_6">
+  </div>
+
+ </div>
+
+ <div class="contener8_6">
+  <div class="heading8_6 HedingText_6">
+   8/8<br>Watch and learn, buddy
+   <img src="/assets/images/pront_2.svg" alt="" class="promt_6">
+   <img src="/assets/images/a8.svg" alt="" class="promt_text_6">
+  </div>
+
+  <div class="text8_6 text_6">
+    The first season is done and dusted and you know the league has great future ahead. What could’ve
+    been done better? Lots. But that’s okay. Because you planned well, you were collating feedback all
+    season and now have a clear idea of what you need to change next year.
+  </div>
+  <div>
+    <hr class="line8_6">
+  </div>
+
+ </div>
+
+ <div class="contener9_6">
+      <div class="heading9_6 HedingText_6">
+        Anddd finish. Congratulations <br>groundbreaker!<br><br>
+      </div>
+
+    <div class="text9_6 text_6">
+      Your organization blazed the trail and launched a women's league. Already
+      other organisations are following suit. Game changer. 
+      
+      <br><br>
+      This was based on my PhD.   
+      <a target="_blank"    href="https://www.abc.net.au/news/2020-04-18/chance-for-aflw-other-womens-leagues-reboot-after-covid-19/12152966"
+      style="color:#28C65C;" id="link_big_progect">Here’s an article</a> with my key findings 
+    </div> 
+ </div>
+
+</div>
+
+<div class="masaick_6">
+  <div class="mosaickBlocPage6">
+    <svg width="68" height="68" viewBox="0 0 68 68" fill="#333333" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_0">
+    <path d="M67.4932 0V67.4932H0C0 30.2221 30.2086 0 67.4932 0Z" />
+</svg>
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#28C65C" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_1">
+    <path d="M67.9864 67.4932H0.493164V0C37.7779 0 67.9864 30.2221 67.9864 67.4932Z" />
+</svg>
+
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#FF0000" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_2">
+    <path d="M67.4932 0V67.5068C30.2221 67.5068 0 37.2847 0 0H67.4932Z" />
+</svg>
+
+<svg width="135" height="135" viewBox="0 0 135 135" fill="#3D37CD" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_3">
+    <path d="M134.487 134.487H0V0L134.487 134.487Z" />
+</svg>
+
+<svg width="34" height="135" viewBox="0 0 34 135" fill="#28C65C" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_4">
+    <path d="M33.9222 0H0V134.932H33.9222V0Z" />
+</svg>
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#FFBC00" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_5">
+    <path d="M67.4932 0V67.5067H0C0 30.2221 30.2221 0 67.4932 0Z" />
+</svg>
+
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#FFBC00" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_6">
+    <path d="M0 0.506836H67.4932V68.0001C30.2221 68.0001 0 37.778 0 0.506836Z" />
+</svg>
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#FFBC00" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_7">
+    <path d="M0.493164 0.506836H67.9999C67.9999 37.778 37.7779 68.0001 0.493164 68.0001V0.506836Z" />
+</svg>
+
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#FF0000" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_8">
+    <path d="M67.4932 0V67.4933H0C0 30.2221 30.2221 0 67.4932 0Z" />
+</svg>
+
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#FF0000" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_9">
+    <path d="M67.9999 67.4933H0.493164V0C37.7779 0 67.9999 30.2221 67.9999 67.4933Z" />
+</svg>
+
+
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#3D37CD" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_10">
+    <path d="M67.4932 0V67.5067C30.2221 67.5067 0 37.2847 0 0H67.4932Z" />
+</svg>
+<svg width="34" height="135" viewBox="0 0 34 135" fill="#FFBC00" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_11">
+    <path d="M33.7871 0H0V134.878H33.7871V0Z" />
+</svg>
+<svg width="68" height="68" viewBox="0 0 68 68" fill="#28C65C" xmlns="http://www.w3.org/2000/svg"
+    class="masaic_6 " id="masaic_6_12">
+    <path d="M67.5068 67.4932H0C0 30.222 30.2221 0 67.5068 0V67.4932Z" />
+</svg>
+  </div>             
+</div>
+
+
+  <script type="module" src="/assets/script/backHome.js"></script>
+  <script type="module" src="/assets/script/anim_p2.js"></script>
+  <script type="module" src="/assets/script/anim_p3.js"></script>
+  <script type="module" src="/assets/script/burger.js"></script>
+  <script type="module" src="/assets/script/bufPage_4.js"></script>
+  <script type="module" src="/assets/script/anim_p5.js"></script>
+  <script type="module" src="/assets/script/anim_p6.js"></script>
+  <script type="module" src="/assets/script/mobile_5.js"></script>
+  <script type="module" src="/assets/script/mobile_6.js"></script>
+
+
+</body>
+
+</html>
